@@ -1,0 +1,193 @@
+@font-face {
+   font-family: "Lato";
+   src: url("/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(to bottom, #493843, #752e47, #893c62);
+   background-attachment: fixed; /* Fond fixe */
+   background-size: cover;/* Remplit tout l'écran */
+   font-family: 'Lato';
+   font-size: larger;
+   font-weight: 200;
+   font-size: 1rem;
+   padding: 2%;
+   color: white;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 10px;
+   color: white;
+   padding: 0.625em;
+   margin: 0.313em;
+   gap: 1.25em;
+}
+
+.home {
+   /* Grande div contenant tout les éléments */
+   background-color: #262529;
+   margin: 1%;
+   border-radius: 2%;
+   padding: 5px;
+   box-shadow: 0.25em 0.25em 0.625em rgba(0, 0, 0, 0.3);
+}
+
+.retour {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   gap: 1.25em;
+   border-radius: 0.625em;
+   padding: 0.625em;
+}
+
+.arrow {
+   stroke: white;
+}
+
+.retour:hover {
+   background-color: #893c62;
+   transform: scale(1.1);
+   transition-duration: 0.2s;
+}
+
+.linkedin {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+
+
+}
+
+.linkedin>div:first-child>a {
+   text-decoration: none;
+   color: white;
+}
+
+.linkedin>div:first-child {
+   padding: 0.438em;
+   border-radius: 0.625em;
+}
+
+.linkedin>div:first-child:hover {
+   background-color: #893c62;
+   transform: scale(1.2);
+   transition-duration: 0.2s;
+}
+
+h2 {
+   display: flex;
+   justify-content: center;
+}
+
+.titreSAE {
+   margin: 20px;
+   margin-left: 20px;
+   font-size: larger;
+}
+
+.compétences {
+   background-color: #493843;
+
+   margin: 1.25em;
+   margin-left: 1.25em;
+   width: fit-content;
+   padding: 0.938em;
+   border-radius: 0.625em;
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.description {
+   margin: 1.875em;
+   background-color: #d2691e;
+   padding: 0.625em;
+   border-radius: 0.938em;
+   width: 50%;
+
+}
+
+.semestre {
+   background-color: #893c62;
+   color: white;
+   height: fit-content;
+   width: fit-content;
+   margin: 3.125em;
+   padding: 1.25em;
+   border-radius: 0.6em;
+   font-size: large;
+}
+
+.flex-2 {
+   display: flex;
+   justify-content: space-between;
+   margin: 3.125em;
+}
+
+.AC {
+   width: 40%;
+}
+
+.AC>.titreac {
+   background: #493843;
+}
+
+.AC>div {
+   padding: 0.938em;
+   background-color: #893c62;
+   border-radius: 0.625em;
+   margin: 0.938em;
+}
+
+a {
+   text-decoration: none;
+}
+
+.div-apr {
+   text-decoration: none;
+   padding: 0.938em;
+   background-color: #893c62;
+   border-radius: 0.625em;
+   margin: 0.938em;
+   color: white;
+}
+
+.div-apr:hover {
+   transform: scale(1.2);
+   transition-duration: 0.3;
+
+}
+
+.AC>div>a {
+   text-decoration: none;
+   color: white;
+}
+
+.ressources {
+   width: 30%;
+   padding: 0.625em;
+}
+
+.ressources>.titreress {
+   background: #493843;
+}
+
+.ressources>div {
+   background-color: #191970;
+   border-radius: 0.625em;
+   padding: 0.938em;
+   margin: 0.938em;
+
+}

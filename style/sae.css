@@ -1,0 +1,147 @@
+@font-face {
+   font-family: "Lato";
+   src: url("/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(to bottom, #493843, #752e47, #893c62);
+   background-attachment: fixed; /* Fond fixe */
+   background-size: cover; /* Remplit tout l'écran */
+   font-family: 'Lato';
+   font-size: larger;
+   font-size: 1rem;
+   margin: 0;
+   padding: 0;
+   font-weight: 200;
+   color: white;
+}
+
+.flex-home{
+   display: flex;
+   justify-content: center;
+}
+
+.home {
+   /* Grande div contenant tout les éléments */
+   height: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin: 2em;
+   background-color: #262529;
+   border-radius: 2%;
+   box-shadow: 0.25em 0.25em 0.625em rgba(0, 0, 0, 0.3);
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   padding: 0.625em;
+   margin: 0.313em;
+
+}
+
+.retour {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   gap: 1.25em;
+   border-radius: 0.625em;
+   padding: 0.625em;
+}
+
+.arrow {
+   stroke: white;
+}
+
+.retour:hover {
+   background-color: #893c62;
+   transform: scale(1.1);
+   transition-duration: 0.2s;
+}
+
+.linkedin {
+   display: flex;
+   align-items: center;
+   gap: 2.5em;
+
+
+}
+
+.linkedin>div:first-child>a {
+   text-decoration: none;
+   color: white;
+}
+
+.linkedin>div:first-child {
+   padding: 0.438em;
+   border-radius: 0.625em;
+}
+
+.linkedin>div:first-child:hover {
+   background-color: #893c62;
+   transform: scale(1.2);
+   transition-duration: 0.2s;
+}
+
+main {
+   /* Contient les SAE afficher dynamiquement en grid pour afficher quadrillé*/
+   height: 100%;
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 0.3%;
+}
+
+div {
+   margin-top: 0.625em;
+}
+
+.lien {
+   position: relative;
+   background-color: #893c62;
+   border: 2px solid white;
+   border-radius: 0.938em;
+   width: 11.25em;
+   height: 14.375;
+   padding: 1.25em;
+   margin: 3.125em;
+
+}
+
+main>a:nth-child(9) {
+   grid-column: 2/3;
+}
+
+.lien:hover {
+   transform: scale(1.2);
+   transition-duration: 0.3s
+}
+
+.lien {
+   position: relative;
+   text-decoration: none;
+   color: white;
+}
+
+
+.style {
+   background-color: #493843;
+   padding: 0.625em;
+   border-radius: 0.625em;
+}
+
+.spaceSAE {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0%;
+
+}
+
